@@ -280,12 +280,18 @@ hr.colored {
   max-width: 40%;
 }
 .descubre{
-  max-width: 100%;
-  align-items: center;
+    max-width: 100%;
+    align-items: center;
+    margin-left: 90px;
 }
 
 .title-2{
  color:#1D840F;
+}
+
+.qr-img{
+  max-width: 70px;
+  align-items: center;
 }
 /*color*/
 header {
@@ -888,4 +894,28 @@ aside.cta-quote span.quote {
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-text .text-category {
   display: block;
   font-size: 12px;
+}
+
+.btn-circle {
+  width: 30px !important;
+  height: 30px !important;
+  text-align: center !important;
+  padding: 6px 0 !important;
+  line-height: 1.428571429 !important;
+  border-radius: 15px !important;
+}
+
+.btn-circle.btn-xl {
+  width: 70px !important;
+  height: 70px !important;
+  padding: 10px 16px !important;
+  font-size: 24px !important;
+  line-height: 1.33 !important;
+  border-radius: 35px !important;
+  border-color: #95CB9C !important;
+  background-color: #95CB9C !important;
+}
+
+.social{
+  color: #fff !important;
 }
