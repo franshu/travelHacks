@@ -1,0 +1,47 @@
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+    /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (max-width: 767px) {
+  #btn-menu {
+  display: block;
+}
+  .masthead {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #hero .quote {
+    font-size: 3rem;
+  }
+  #people {
+    overflow: hidden;
+  }
+  #news .form-inline .form-group {
+    width: 95%;
+  }
+  #news .form-inline .form-control {
+    width: 64%;
+    display: block;
+    float: left;
+}
+}
